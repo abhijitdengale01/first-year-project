@@ -9,7 +9,7 @@ on:
     # Run daily at 2 PM UTC (14:00)
     - cron: '0 14 * * *'
 
-# This workflow handles anime content uploads for educational purposes only
+# This workflow handles gaming content uploads for educational purposes only
 jobs:
   upload-videos:
     name: Upload Videos to YouTube Channels
@@ -43,16 +43,16 @@ jobs:
           # Define all channels in order of priority
           # Using multiline output format to preserve spaces in channel names
           echo "channels<<EOF" >> $GITHUB_OUTPUT
-          echo "AniSnap" >> $GITHUB_OUTPUT
-          echo "CineCrunch Explains" >> $GITHUB_OUTPUT
-          echo "FlashFrame Films" >> $GITHUB_OUTPUT
-          echo "FlickBreakdown" >> $GITHUB_OUTPUT
-          echo "MiniMovieVault" >> $GITHUB_OUTPUT
-          echo "MovieBite Explained" >> $GITHUB_OUTPUT
-          echo "PlotSnap" >> $GITHUB_OUTPUT
-          echo "QuickFlick Recap" >> $GITHUB_OUTPUT
-          echo "SceneSync" >> $GITHUB_OUTPUT
-          echo "ThrillRecaps" >> $GITHUB_OUTPUT
+          echo "Blastify" >> $GITHUB_OUTPUT
+          echo "BrawlEdge" >> $GITHUB_OUTPUT
+          echo "CineCombat" >> $GITHUB_OUTPUT
+          echo "ClashZone" >> $GITHUB_OUTPUT
+          echo "HitVerse" >> $GITHUB_OUTPUT
+          echo "Impactory" >> $GITHUB_OUTPUT
+          echo "PunchFrame" >> $GITHUB_OUTPUT
+          echo "RageCut" >> $GITHUB_OUTPUT
+          echo "SmashShot" >> $GITHUB_OUTPUT
+          echo "StrikeCore" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
           
       - name: Process channels sequentially
@@ -76,8 +76,8 @@ jobs:
             echo "Processing channel: $channel"
             echo "============================================="
             
-            # Generate random number of videos to upload (3-6)
-            NUM_VIDEOS=$((RANDOM % 4 + 3))
+            # Generate random number of videos to upload (7-10)
+            NUM_VIDEOS=$((RANDOM % 4 + 7))
             echo "Will attempt to upload $NUM_VIDEOS videos to $channel"
             
             # Try uploading with multiple attempts if needed
@@ -97,7 +97,7 @@ jobs:
               fi
               
               # Run the upload script with public privacy
-              python upload_gdrive_videos.py --channel-name "$channel" --limit $NUM_VIDEOS --privacy-status "public"
+              python upload_gdrive_videos.py --channel-name "$channel" --limit $NUM_VIDEOS --privacy-status "public" --random
               EXIT_CODE=$?
               
               if [ $EXIT_CODE -eq 0 ]; then

@@ -122,16 +122,16 @@ def get_youtube_credentials(channel_id=None, channel_name=None):
     
     # Channel name to Drive file ID mapping
     CHANNEL_DRIVE_LINKS = {
-        "StrikeCore": "https://drive.google.com/file/d/1s73OsJVQtIxUI0YZ1zI_NjWTsD0nuVRJ/view?usp=sharing",
-        "SmashShot": "https://drive.google.com/file/d/1THy8uTK7lXLoQR4WGT3NT-kSbh8gsCFN/view?usp=sharing",
-        "RageCut": "https://drive.google.com/file/d/18v2V-ApMPB2cWNpNIvAJ0WYu4NamsMeO/view?usp=sharing",
-        "PunchFrame": "https://drive.google.com/file/d/12meRj2w0AiiefOeV2fAxf6kGs50QaW-a/view?usp=sharing",
-        "Impactory": "https://drive.google.com/file/d/1X0jKYX6y1pNMedmX1lFrF6kH36CELBXm/view?usp=sharing",
-        "HitVerse": "https://drive.google.com/file/d/1xd5rJIQpdSnKCPMfiLosXIEwek8AEk2A/view?usp=sharing",
-        "ClashZone": "https://drive.google.com/file/d/1_1P7YpxBe3hQ8wLI09MZbAiSIYuQq4TC/view?usp=sharing",
-        "CineCombat": "https://drive.google.com/file/d/1-nXHu2WFfG0y0BCmZqrDKxJKFrIi3H3I/view?usp=sharing",
-        "BrawlEdge": "https://drive.google.com/file/d/1k85bvO9rV6NDcof4p5hi2vDHZ1SI1vWO/view?usp=sharing",
-        "Blastify": "https://drive.google.com/file/d/1bahvNHqsGXDkJIRpIPmHAqp52JXBaIy0/view?usp=sharing"
+        "StrikeCore": "https://drive.google.com/file/d/16crEzRH79Hua-rrYUahdL3H13uEC9OG0/view?usp=sharing",
+        "SmashShot": "https://drive.google.com/file/d/1H7YMsq7KFBygp9el4eimlmNQ9xGnx66T/view?usp=sharing",
+        "RageCut": "https://drive.google.com/file/d/1DcgfKlE5A4jWuHFgNr-ifk1rgXN4rq4Y/view?usp=sharing",
+        "PunchFrame": "https://drive.google.com/file/d/1xGGkR4pc_L1iIAsd_Qxo-ns5oohUY6uQ/view?usp=sharing",
+        "Impactory": "https://drive.google.com/file/d/1d2b5XU9Jqx-91jewIDgYBAZovODf5EjF/view?usp=sharing",
+        "HitVerse": "https://drive.google.com/file/d/1QQe_-wKSHJkON4LDShVo79IZkXBU00Ze/view?usp=sharing",
+        "ClashZone": "https://drive.google.com/file/d/1tnbd3PK5LaFi7DEnyO7QHDwv2BY8lRjX/view?usp=sharing",
+        "CineCombat": "https://drive.google.com/file/d/1DreToCdJ8S4c7oM0ClSGib8AtyXKyrQb/view?usp=sharing",
+        "BrawlEdge": "https://drive.google.com/file/d/1eXnE0nbQ4Ik9UJbZM9kC1lDr_d3Cl6JP/view?usp=sharing",
+        "Blastify": "https://drive.google.com/file/d/1hsMR1rqatDKAGdo2pmlC_ldoSQiKHjwW/view?usp=sharing"
     }
     
     if not channel_name and not channel_id:
@@ -197,16 +197,16 @@ def list_available_youtube_channels():
     """List all channels that have saved YouTube tokens on Google Drive."""
     # Channel token Google Drive links
     CHANNEL_DRIVE_LINKS = {
-        "StrikeCore": "https://drive.google.com/file/d/1s73OsJVQtIxUI0YZ1zI_NjWTsD0nuVRJ/view?usp=sharing",
-        "SmashShot": "https://drive.google.com/file/d/1THy8uTK7lXLoQR4WGT3NT-kSbh8gsCFN/view?usp=sharing",
-        "RageCut": "https://drive.google.com/file/d/18v2V-ApMPB2cWNpNIvAJ0WYu4NamsMeO/view?usp=sharing",
-        "PunchFrame": "https://drive.google.com/file/d/12meRj2w0AiiefOeV2fAxf6kGs50QaW-a/view?usp=sharing",
-        "Impactory": "https://drive.google.com/file/d/1X0jKYX6y1pNMedmX1lFrF6kH36CELBXm/view?usp=sharing",
-        "HitVerse": "https://drive.google.com/file/d/1xd5rJIQpdSnKCPMfiLosXIEwek8AEk2A/view?usp=sharing",
-        "ClashZone": "https://drive.google.com/file/d/1_1P7YpxBe3hQ8wLI09MZbAiSIYuQq4TC/view?usp=sharing",
-        "CineCombat": "https://drive.google.com/file/d/1-nXHu2WFfG0y0BCmZqrDKxJKFrIi3H3I/view?usp=sharing",
-        "BrawlEdge": "https://drive.google.com/file/d/1k85bvO9rV6NDcof4p5hi2vDHZ1SI1vWO/view?usp=sharing",
-        "Blastify": "https://drive.google.com/file/d/1bahvNHqsGXDkJIRpIPmHAqp52JXBaIy0/view?usp=sharing"
+        "StrikeCore": "https://drive.google.com/file/d/16crEzRH79Hua-rrYUahdL3H13uEC9OG0/view?usp=sharing",
+        "SmashShot": "https://drive.google.com/file/d/1H7YMsq7KFBygp9el4eimlmNQ9xGnx66T/view?usp=sharing",
+        "RageCut": "https://drive.google.com/file/d/1DcgfKlE5A4jWuHFgNr-ifk1rgXN4rq4Y/view?usp=sharing",
+        "PunchFrame": "https://drive.google.com/file/d/1xGGkR4pc_L1iIAsd_Qxo-ns5oohUY6uQ/view?usp=sharing",
+        "Impactory": "https://drive.google.com/file/d/1d2b5XU9Jqx-91jewIDgYBAZovODf5EjF/view?usp=sharing",
+        "HitVerse": "https://drive.google.com/file/d/1QQe_-wKSHJkON4LDShVo79IZkXBU00Ze/view?usp=sharing",
+        "ClashZone": "https://drive.google.com/file/d/1tnbd3PK5LaFi7DEnyO7QHDwv2BY8lRjX/view?usp=sharing",
+        "CineCombat": "https://drive.google.com/file/d/1DreToCdJ8S4c7oM0ClSGib8AtyXKyrQb/view?usp=sharing",
+        "BrawlEdge": "https://drive.google.com/file/d/1eXnE0nbQ4Ik9UJbZM9kC1lDr_d3Cl6JP/view?usp=sharing",
+        "Blastify": "https://drive.google.com/file/d/1hsMR1rqatDKAGdo2pmlC_ldoSQiKHjwW/view?usp=sharing"
     }
     
     print("\nAvailable YouTube Channels:")
